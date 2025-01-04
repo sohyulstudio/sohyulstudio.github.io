@@ -48,6 +48,13 @@ opacity: 0.9;
     transform-origin: center center;
 }
 
+.alors {
+    max-width: 100%; /* Ensures it doesn't overflow */
+    text-align: center; /* Centers the text */
+    word-wrap: break-word; /* Allows text wrapping */
+    overflow-wrap: break-word; /* Better support for breaking long words */
+  }
+
 
 @media (max-width: 600px) {
 .home {
