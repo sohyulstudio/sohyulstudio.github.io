@@ -1222,3 +1222,8 @@ padding: 0; margin: 0; box-sizing: border-box;
         opacity: 0;
     }
     }
+
+.wrapper {
+        -ms-overflow-style: none; /* Hides the scrollbar on Internet Explorer */
+        scrollbar-width: none; /* Hides the scrollbar on Firefox */
+      }
